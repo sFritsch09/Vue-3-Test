@@ -1,30 +1,33 @@
 {
-  "name": "pokemon",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
-  },
-  "dependencies": {
-    "axios": "^0.21.4",
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0",
-    "vue-loading-spinner": "^1.0.11",
-    "vue-router": "^4.0.0-0",
-    "vuex": "^4.0.2"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.2"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+	"name": "pokemon",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"predeploy": "yarn build",
+		"deploy": "gh-pages -d dist -r https://github.com/sFritsch09/Vue-3-Test.git"
+	},
+	"dependencies": {
+		"axios": "^0.21.4",
+		"core-js": "^3.6.5",
+		"gh-pages": "^3.2.3",
+		"vue": "^3.0.0",
+		"vue-loading-spinner": "^1.0.11",
+		"vue-router": "^4.0.0-0",
+		"vuex": "^4.0.2"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.5.0",
+		"@vue/cli-plugin-router": "~4.5.0",
+		"@vue/cli-service": "~4.5.0",
+		"@vue/compiler-sfc": "^3.0.0",
+		"node-sass": "^4.12.0",
+		"sass-loader": "^8.0.2"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead"
+	]
 }

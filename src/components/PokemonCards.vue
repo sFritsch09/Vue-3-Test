@@ -8,7 +8,7 @@
 		>
 			<template #title> {{ pokemon.name }} #{{ pokemon.id }} </template>
 			<template #content>
-				<img :src="pokemon.sprite" alt="pokemon image" />
+				<img class="pokemonImage" :src="pokemon.sprite" alt="pokemon image" />
 			</template>
 			<template #description>
 				<div v-for="type in pokemon.types" :key="type">

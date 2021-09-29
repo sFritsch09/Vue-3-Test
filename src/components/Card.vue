@@ -32,7 +32,7 @@ export default {};
 .card:hover {
 	opacity: 1;
 }
-img {
+.pokemonImage {
 	width: 100%;
 }
 

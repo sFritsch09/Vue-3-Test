@@ -41,6 +41,7 @@ export default {};
 	width: 100%;
 	:deep(img) {
 		padding: 10px;
+		width: auto;
 	}
 }
 .sidebar {

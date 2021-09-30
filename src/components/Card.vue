@@ -18,6 +18,7 @@ export default {};
 
 <style>
 .card {
+	background-color: var(--background-color-primary);
 	border: 1px solid silver;
 	border-radius: 8px;
 	max-width: 200px;
